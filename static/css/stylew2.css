@@ -1,0 +1,21 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(174, 175, 177);
+    text-align: center;
+}
+.test1{
+    display: flex;
+    flex-direction: row;
+
+}
+.test2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.ok{
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+}

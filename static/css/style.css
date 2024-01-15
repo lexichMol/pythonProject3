@@ -1,0 +1,26 @@
+form{
+    width: 300px;
+    margin: auto;
+    display: grid;
+    background-color: rgb(177, 177, 177);
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+
+}
+.fio{
+    margin-top: 50px;
+}
+.container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 0.4fr 0.3fr;
+}
+.btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ok{
+    width: 80px;
+    height: 20px;
+    margin: auto;
+}

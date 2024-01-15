@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link type="text/css" href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet"/>
+    <script src="{{ url_for('static', filename='scripts/script.js') }}"></script>
+</head>
+
+<body>
+
+    <form method="post">
+        <label class="fio" name="fio">ФИО: <input name="name" placeholder="фамилия и имя"></label>
+        <div class="container">
+            <span>Класс:</span>
+            <div class="btns">
+                <label><input type="radio" name="I"/>10И</label>
+                <label><input type="radio" name="T"/>10Т</label>
+            </div>
+
+        </div>
+        <a href="templates/task.html"><button class="ok">войти</button></a>
+
+    </form>
+</body>
+
+</html>
